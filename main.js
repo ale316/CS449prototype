@@ -162,7 +162,7 @@ function addIco() {
 
   var edges = new THREE.EdgesHelper( ico, 0x5A5B67 );
 
-  bbox = new THREE.BoundingBoxHelper( ico, 0x00ff00 );
+  bbox = new THREE.BoundingBoxHelper( ico, highlightedColor );
   bbox.update();
   bbox.visible = false;
   ico.add( bbox );
